@@ -6,20 +6,12 @@ const postsRoutes = require("./routes/posts");
 
 const app = express();
 
-// const uri="mongodb+srv://root:root@cluster0.46qdp.mongodb.net/node-angular?retryWrites=true&w=majority"
-// mongoose.connect(uri,{ useNewUrlParser: true, useUnifiedTopology: true })
-// .then(()=>{
-//   console.log('connected')
-// })
-// .catch(()=>{
-//   console.log('connection failed')
-// });
 
 const pool = new Pool({
-  user: "omhrjeny",
+  user: "abcs",
   host: "xxxxx.elephantsql.com",
-  database: "omhrjeny",
-  password: "v1dRsCwHuAl_Tc5v14S--TuVnQ35VnZL",
+  database: "sbd",
+  password: "v1dRs___urpassword -5v14S--TuVnQ35VnZL",
   port: 5432
 });
 console.log("Successful connection to the database");
